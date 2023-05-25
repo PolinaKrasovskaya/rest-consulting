@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+
 import { ReactComponent as Ellipse } from 'images/ellipse.svg';
 import {
   Container,

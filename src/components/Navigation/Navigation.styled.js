@@ -82,6 +82,7 @@ export const Link = styled(NavLink)`
 
   &:hover,
   &:focus {
+    text-shadow: 2px 2px #ff0000;
   }
 
   &:hover ${DropDownContent} {
