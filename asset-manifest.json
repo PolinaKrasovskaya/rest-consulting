@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rest-consulting/static/css/main.b5320759.css",
-    "main.js": "/rest-consulting/static/js/main.9f3291dc.js",
+    "main.js": "/rest-consulting/static/js/main.1e81ae92.js",
     "static/js/24.99af89ac.chunk.js": "/rest-consulting/static/js/24.99af89ac.chunk.js",
     "static/js/13.0642219d.chunk.js": "/rest-consulting/static/js/13.0642219d.chunk.js",
     "static/js/941.5f070e17.chunk.js": "/rest-consulting/static/js/941.5f070e17.chunk.js",
@@ -23,7 +23,7 @@
     "static/media/user.svg": "/rest-consulting/static/media/user.5a01c732573ce0320b7bf36ab8d74b25.svg",
     "static/media/ellipse.svg": "/rest-consulting/static/media/ellipse.392c51a514d411d97294d4aa622b1694.svg",
     "main.b5320759.css.map": "/rest-consulting/static/css/main.b5320759.css.map",
-    "main.9f3291dc.js.map": "/rest-consulting/static/js/main.9f3291dc.js.map",
+    "main.1e81ae92.js.map": "/rest-consulting/static/js/main.1e81ae92.js.map",
     "24.99af89ac.chunk.js.map": "/rest-consulting/static/js/24.99af89ac.chunk.js.map",
     "13.0642219d.chunk.js.map": "/rest-consulting/static/js/13.0642219d.chunk.js.map",
     "941.5f070e17.chunk.js.map": "/rest-consulting/static/js/941.5f070e17.chunk.js.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.b5320759.css",
-    "static/js/main.9f3291dc.js"
+    "static/js/main.1e81ae92.js"
   ]
 }
