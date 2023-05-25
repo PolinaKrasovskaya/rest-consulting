@@ -1,11 +1,9 @@
 import image from '../../images/logo2.png';
-import { Search } from 'components/Search/Search';
 import { Navigation } from 'components/Navigation/Navigation';
 import { Authorisation } from 'components/Authorisation/Authorisation';
 import {
   HeaderBox,
   LogoBox,
-  Box,
   HeaderContacts,
   Email,
   Link,
