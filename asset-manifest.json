@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rest-consulting/static/css/main.7acaea2f.css",
+    "main.js": "/rest-consulting/static/js/main.a65e1d9b.js",
+    "index.html": "/rest-consulting/index.html",
+    "main.7acaea2f.css.map": "/rest-consulting/static/css/main.7acaea2f.css.map",
+    "main.a65e1d9b.js.map": "/rest-consulting/static/js/main.a65e1d9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.a65e1d9b.js"
+  ]
+}
