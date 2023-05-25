@@ -11,9 +11,13 @@ export const Container = styled.div`
 export const DropDownContent = styled.div`
   display: none;
   position: absolute;
-  background-color: orange;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  background-color: white;
   color: white;
-  min-width: 120px;
+  min-width: 100px;
+  border: 1px solid grey;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 `;
@@ -22,10 +26,6 @@ export const DropDownContainer = styled.div`
 
   &:hover ${DropDownContent} {
     display: block;
-  }
-
-  &:not(:first-child) {
-    margin-left: 5px;
   }
 `;
 
@@ -69,28 +69,43 @@ export const DropDownContainer = styled.div`
 // `;
 
 export const Link = styled(NavLink)`
-font-weight: 400;
-font-size: 14px;
-line-height: 2;
-letter-spacing: 0.2em;
-text-transform: uppercase;
-color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
   text-decoration: none;
   align-items: center;
   text-align: center;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  // box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-  //   0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  //   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-    &:hover,
-    &:focus{
-      color: #000080;
-      background-color: orange;
-    }
+  &:hover,
+  &:focus {
+  }
+
+  &:hover ${DropDownContent} {
+    display: block;
+  }
+`;
+
+export const DropDownLink = styled(NavLink)`
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.2em;
+
+  color: #000000;
+  text-decoration: none;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+`;
 
 
-
-    }
+export const DropDownLinkBox = styled.div`
+  &:hover,
+  &:focus {
+    background-color: grey;
+  }
 `;

@@ -52,9 +52,15 @@ export const HeaderContacts = styled.div`
   justify-content: space-between;
 `;
 
-export const Email = styled.p`
-  margin-left: 50px;
+export const Adress = styled.a`
+  text-decoration: none;
+  color: #333333;
+`;
 
+export const Email = styled.a`
+  margin-left: 50px;
+  text-decoration: none;
+  color: #333333;
   font-weight: 600;
 `;
 
@@ -67,10 +73,11 @@ export const Link = styled(NavLink)`
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 `;
 
-export const Phone = styled.p`
+export const Phone = styled.a`
   margin-left: 50px;
-
+  text-decoration: none;
   font-weight: 600;
+  color: #333333;
 `;
 
 export const Logo = styled.img`

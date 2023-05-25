@@ -5,6 +5,7 @@ import {
   HeaderBox,
   LogoBox,
   HeaderContacts,
+  Adress,
   Email,
   Link,
   Phone,
@@ -16,14 +17,20 @@ export const Header = () => {
     <HeaderBox>
       <LogoBox>
         <HeaderContacts>
-          <p>Navan, Co Meath, Ireland</p>
-          <Email>rest@rest.com</Email>
+          <Adress
+            href="https://goo.gl/maps/d2nQSNGrm9WTZPLW6"
+            target="blank"
+            rel="noopener noreferer"
+          >
+            Navan, Co Meath, Ireland
+          </Adress>
+          <Email href="mailto:info@example.com">rest@rest.com</Email>
         </HeaderContacts>
         <Link to="/">
           <Logo src={image} alt="Logo"></Logo>
         </Link>
         <HeaderContacts>
-          <Phone>+353877592347</Phone>
+          <Phone href="tel:+353877592347">+353877592347</Phone>
           {/* <Search /> */}
           <Authorisation />
         </HeaderContacts>
