@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { fetchMovies } from 'services/movies-api';
+
 
 import { Loader } from 'components/Loader/Loader';
 import { Hero } from 'components/Hero/Hero';
